@@ -1,5 +1,4 @@
-#include <string.h>
- //Deklarasi atau inisialisasi
+//Deklarasi atau inisialisasi
  char pilihan,next;
  int m,n;
     int matriks1[10][10], matriks2[10][10];
