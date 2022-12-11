@@ -10,7 +10,6 @@
 
  //ALGOTRITMA
 void inputMatriks(int mat[10][10], int baris,int kolom){
-   int i,j;
    for(i=1;i<=baris;i++){
       for(j=1;j<=kolom;j++){
          printf("Input Matrik [%d],[%d] = ", i,j);
@@ -19,7 +18,6 @@ void inputMatriks(int mat[10][10], int baris,int kolom){
    }
 }
 void penjumlahanMatriks(const int matriks[10][10],const int matriks2[10][10], int baris,int kolom,int jumlah[10][10]){
-   int i,j;
    for ( i = 1; i <= baris; i++){
       for(j=0;j<=kolom;j++){
          jumlah[i][j]= matriks[i][j] + matriks2[i][j];
@@ -28,7 +26,6 @@ void penjumlahanMatriks(const int matriks[10][10],const int matriks2[10][10], in
    
 }
 void tampilMatriks(const int A[10][10],int baris,int kolom){
-   int i,j;
    printf("\n");
    for ( i = 1; i <= baris; i++){
       for (j = 1; j <= kolom; j++)
@@ -39,7 +36,6 @@ void tampilMatriks(const int A[10][10],int baris,int kolom){
    }
 }
 void penguranganMatriks(const int matriks[10][10], const int matriks2[10][10],int baris,int kolom, int pengurangan[10][10]){
-   int i,j;
    for ( i = 1; i <= baris; i++){
       for(j=0;j<=kolom;j++){
          pengurangan[i][j]= matriks[i][j] - matriks2[i][j];
@@ -47,7 +43,6 @@ void penguranganMatriks(const int matriks[10][10], const int matriks2[10][10],in
    }
 }
 void perkalianMatriks(const int matriks[10][10], const int matriks2[10][10],int baris,int kolom, int perkalian[10][10]){
-   int i,j;
    for ( i = 1; i <= baris; i++){
       for(j=0;j<=kolom;j++){
          perkalian[i][j]= matriks[i][j] * matriks2[i][j];
@@ -55,7 +50,6 @@ void perkalianMatriks(const int matriks[10][10], const int matriks2[10][10],int 
    }
 }
 void Transpose(const int matriks[10][10], const int matriks2[10][10],int baris,int kolom, int tranpose[10][10]){
-        int i,j;
    for (i = 1; i <= baris; i++){
     for(j = 0; j <= kolom; j++){
          transpose[j][i] = matriks[i][j];
