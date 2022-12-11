@@ -9,10 +9,6 @@
  int A[10][10],i,j,determinan;
 
  //ALGOTRITMA
- typedef int matriks22 [2][2];
-    matriks22 a,b,c;
-    int i,j;
-
 void inputMatriks(int mat[10][10], int baris,int kolom){
    int i,j;
    for(i=1;i<=baris;i++){
